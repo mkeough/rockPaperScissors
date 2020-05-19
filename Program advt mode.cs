@@ -8,14 +8,14 @@ namespace rockPaperScissors
     {
       Console.WriteLine("Welcome");
       Console.WriteLine("I want to play a game");
-      // Console.WriteLine("Choose your difficulty, easy, normal, impossible");
-      // var diffChoice = Console.ReadLine().ToLower();
+      Console.WriteLine("Choose your difficulty, easy, normal, impossible");
+      var diffChoice = Console.ReadLine().ToLower();
       Console.WriteLine("Choose rock, paper, or scissors");
       var UserChoice = Console.ReadLine().ToLower();
-      // if (diffChoice == "easy" && UserChoice == "rock")
-      // {
+      if (diffChoice == "easy" && UserChoice == "rock")
+      {
 
-      // }
+      }
       //initiate random genorator
       Random rnd = new Random();
       //genorate random indexes with arrays {}
